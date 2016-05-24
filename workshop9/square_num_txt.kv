@@ -1,0 +1,23 @@
+BoxLayout:
+    orientation: 'vertical'
+    BoxLayout:
+        orientation: 'horizontal'
+        TextInput:
+            id: input_number
+            text: '7'
+            font_size: 48
+            multiline: False
+
+        Button:
+            text: 'Square'
+            font_size:30
+            on_press: app.handle_calculate()
+
+        Label:
+            id: output_label
+            font_size: 48
+            color: (1, 0.4, 0.4, 1)
+    Label:
+        front_size:48
+        text: 'Enter a number and press "Square"'
+
