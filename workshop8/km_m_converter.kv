@@ -15,9 +15,10 @@ BoxLayout:
             Button:
                 text: "Down"
                 on_press: app.add_or_min(-1)
-    Label:
+    Button:
         font_size: 60
         text: 'Converting m to km'
+        on_press: app.calculate()
 
     Label:
         font_size: 48
