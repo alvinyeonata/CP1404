@@ -1,5 +1,4 @@
 
-
 weight= float(input("Please enter your weight in kg:"))
 height= float(input("Please enter your height in m:"))
 
